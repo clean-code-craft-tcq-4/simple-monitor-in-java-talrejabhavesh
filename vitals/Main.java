@@ -57,8 +57,8 @@ public class Main {
     
     public static void testBatteryCharge() {
       assert(isTemperatureOk(25) == true);
-      assert(isChargingStateOk(75) == false);
+      assert(isChargingStateOk(95) == false);
       assert(isChargingRateOk(0.7f) == true);
-      assert(isVoltageOk(2.45f) == false);
+      assert(isVoltageOk(2.45f) == true);
     }
 }
